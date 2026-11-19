@@ -1,0 +1,97 @@
+<!-- Noor Gomaa - ID: 225114530 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noor Gomaa | Profile</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- الجزء العلوي: الصورة فوق -> تحتها الاسم -> تحتها الشريط الصغير -->
+    <header id="top">
+        <div id="about" class="hero-section">
+            <img src="images/me.jpg" alt="Photo of Noor Gomaa" class="profile-img" id="profile-img" title="Click to enlarge">
+            <h1>Noor Gomaa</h1>
+            <p class="bio">Computer Science Student at New Mansoura University</p>
+        </div>
+
+        <nav class="navbar">
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- الـ 3 كروت في صف واحد -->
+        <section class="cards-container">
+            <div class="card">
+                <h3>Programming & Problem Solving</h3>
+                <p>Developing apps with C#, HTML, CSS, JS, and solving algorithmic challenges.</p>
+            </div>
+            <div class="card">
+                <h3>Computer Science</h3>
+                <p>Studying Data Structures, Logic Design, and Software Engineering.</p>
+            </div>
+            <div class="card">
+                <h3>Football</h3>
+                <p>Passionate fan of AC Milan and Arsenal, following matches and tactics.</p>
+            </div>
+        </section>
+
+        <!-- مربع المهارات المنفصل ومربوط بكلمة Skills -->
+        <section id="skills" class="featured-skill-box">
+            <div class="skill-badge" aria-hidden="true">🎬 📸</div>
+            <div class="skill-content">
+                <h2>Creative Skills</h2>
+                <p><strong>Video Editor & Photo Editor</strong> — Crafting visual stories, professional color grading, motion cuts, and portrait retouching.</p>
+            </div>
+        </section>
+
+        <!-- قسم التواصل -->
+        <section id="contact" class="contact-section">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="visitor-name">Name:</label>
+                    <input type="text" id="visitor-name" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Enter your email">
+                </div>
+                <input type="submit" value="Send Message" class="submit-btn">
+            </form>
+
+            <!-- رسالة الترحيب التفاعلية -->
+            <p id="greeting-msg" class="greeting"></p>
+
+            <hr class="divider">
+
+            <!-- روابط مواقع التواصل المباشرة -->
+            <div class="social-links">
+                <a href="https://www.instagram.com/noor_gom2a" target="_blank" class="social-btn">Instagram (@noor_gom2a)</a>
+                <a href="https://www.facebook.com/search/top?q=Noor%20Gomaa" target="_blank" class="social-btn">Facebook (Noor Gomaa)</a>
+                <a href="https://x.com/search?q=Noor%20Gomaa" target="_blank" class="social-btn">X (Noor Gomaa)</a>
+                <a href="tel:01091450131" class="social-btn">Phone: 01091450131</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Noor Gomaa. All rights reserved.</p>
+    </footer>
+
+    <!-- زرار الوضع الليلي الصغير في الجنب الشمال تحت -->
+    <button id="theme-btn" class="theme-toggle-btn" title="Toggle Dark Mode">🌓</button>
+
+    <!-- زرار الرجوع لأعلى الصفحة في الجنب اليمين تحت -->
+    <a href="#top" class="back-to-top" title="Back to top">&uarr;</a>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
